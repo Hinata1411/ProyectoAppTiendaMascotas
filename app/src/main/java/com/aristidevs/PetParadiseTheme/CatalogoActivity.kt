@@ -7,12 +7,18 @@ import androidx.navigation.findNavController
 import androidx.navigation.ui.AppBarConfiguration
 import androidx.navigation.ui.setupActionBarWithNavController
 import androidx.navigation.ui.setupWithNavController
+import androidx.recyclerview.widget.LinearLayoutManager
+import androidx.recyclerview.widget.RecyclerView
+import com.aristidevs.PetParadiseTheme.ui.adaptador.MascotaAdapter
+import com.aristidevs.PetParadiseTheme.ui.objetos.Mascota
 import com.aristidevs.darkmodeexample.R
 import com.aristidevs.darkmodeexample.databinding.ActivityCatalogoBinding
+
 
 class CatalogoActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityCatalogoBinding
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -32,5 +38,10 @@ class CatalogoActivity : AppCompatActivity() {
         )
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
+
+
+
     }
+
+
 }

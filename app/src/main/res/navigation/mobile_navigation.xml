@@ -9,7 +9,7 @@
         android:id="@+id/navigation_home"
         android:name="com.aristidevs.PetParadiseTheme.ui.Catalogo_de_Mascotas.HomeFragment"
         android:label="Mascotas"
-        tools:layout="@layout/fragment_home" />
+        tools:layout="@layout/fragment_mascotas" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
